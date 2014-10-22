@@ -141,7 +141,7 @@ namespace BookStore{
 			cout << setw(10) << "User : " << Core::User->Name() << endl
 			<< setw(10) << "Money : " << Core::User->MyMoney() << endl
 			<< setw(10) << "Role : " << Core::User->Role() << endl;
-		}), vector<string>(), "Seek how much money you keep."));
+		}), vector<string>(), "Seek my information."));
 
 		user_sta.add_action(Action::create("to_book_manager", ToUIFunc([](ActionEvent& evt){
 			RoleManage::Valid(Core::User, Role::Staff);
