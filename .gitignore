@@ -1,0 +1,13 @@
+*.opensdf
+*.exe
+*.obj
+*.pdb
+*.tlog
+BookStore/BookStore/BookStore
+BookStore/BookStore/Debug
+BookStore/ipch
+BookStore/Debug
+*~
+*.suo
+*.user
+
