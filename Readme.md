@@ -1,8 +1,19 @@
 Simple Book Store
 ---
+## Install
+Boost lib is used,
+please indicate your boost lib path in visual studio project property page.
+Boost version : 1.56.0
+
 
 ## Usage
 Just simple type '?' at any problem.
+
+Default Login access:
+
+you could use _admin_ with password _admin_ to login into system with administrator authority, or _staff_ with _staff_ password to get staff authority.
+you also could use _port/db_ file, which is my db file.
+
 
 ## UI framwork
 The program implents a simple status machine.
@@ -71,3 +82,6 @@ So, at the main function, I just simply call:
 	Core::Terminate()
 
 That's all
+
+## Author
+Xero Essential (Xu Qiyuan 3130000950)
